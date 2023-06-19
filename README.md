@@ -9,5 +9,9 @@ These are generally one function solutions to small chalenges set by Codewars. I
 1. Clone the repo
 2. npm install # install dependencies
 3. npm jest # run tests
-4. node <file> # run file
+```
+
+As the files are mostly single functions, there is little point in running them. However, if you want to do so, you can use node to run the files. For example:
+```bash
+1. node <file> # run file
 ```
