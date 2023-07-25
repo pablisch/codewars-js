@@ -13,14 +13,29 @@ A repo to collect JS Codewars challenges with TDD solutions.
 
 These are generally one function solutions to small chalenges set by Codewars. I user them to keep my JavaScript skills sharp and to practice TDD.
 
-## How to use
+## How to install the repo locally
+``
 ```bash
 1. Clone the repo
 2. npm install # install dependencies
-3. npm jest # run tests
 ```
 
-As the files are mostly single functions, there is little point in running them. However, if you want to do so, you can use node to run the files. For example:
+## How to run ALL tests
 ```bash
-1. node <file> # run file
+1. jest # run tests
+```
+
+## How to run a single test
+```bash
+1. jest <test-filename> # run single test
+```
+Example: `jest greet.test.js`
+
+**Note:** the extension is not required.
+
+## How to run a single file
+
+As the files are mostly single functions designed to pass a specific abstract test, there is little point in running them, however, if you want to do so, you can use node to run the files. For example:
+```bash
+1. node <filename> # run file
 ```
